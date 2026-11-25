@@ -40,3 +40,12 @@ sources:
             data_tests:
               - unique
               - not_null
+    
+      - name: contas
+        description: tabela fonte das contas
+        columns:
+          - name: num_conta
+            description: chave primaria da tabela contas
+            data_tests:
+              - unique
+              - not_null
